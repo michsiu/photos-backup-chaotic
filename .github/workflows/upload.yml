@@ -1,0 +1,99 @@
+name: Photo Upload via Ngrok
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    env:
+      NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+
+    steps:
+      - name: Checkout (sparse)
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            photos.json
+            incoming
+            process_photos.py
+            upload_server.py
+            templates/upload_interface.html
+            sparse-checkout-cone-mode: false
+
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install flask exifread Pillow
+
+      - name: Install ngrok
+        run: |
+          wget -q https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.zip
+          unzip -o ngrok-v3-stable-linux-amd64.zip
+          chmod +x ngrok
+          ./ngrok config add-authtoken "$NGROK_AUTH_TOKEN"
+
+      - name: Start server, ngrok, and wait for shutdown
+        run: |
+          mkdir -p incoming
+
+          # 启动轻量上传服务
+          nohup python upload_server.py > server.log 2>&1 &
+          echo $! > flask.pid
+          sleep 2
+
+          # 启动 ngrok
+          nohup ./ngrok http 5000 > ngrok.log 2>&1 &
+          echo $! > ngrok.pid
+
+          # 获取公网 URL
+          URL=""
+          for i in {1..60}; do
+            URL=$(curl -s http://127.0.0.1:4040/api/tunnels \
+              | grep -oE 'https://[a-zA-Z0-9.-]+' | head -n 1)
+            if [ -n "$URL" ]; then
+              echo "=============================================="
+              echo "  Upload page available at: $URL"
+              echo "  Open this URL in your browser to upload."
+              echo "=============================================="
+              break
+            fi
+            sleep 2
+          done
+          if [ -z "$URL" ]; then
+            echo "Failed to get ngrok URL. Ngrok log:"
+            tail -20 ngrok.log
+            exit 1
+          fi
+
+          # 等待 Flask 进程退出（用户点击 Stop 后 os._exit）
+          FLASK_PID=$(cat flask.pid)
+          echo "Flask PID: $FLASK_PID - waiting for shutdown..."
+          while kill -0 $FLASK_PID 2>/dev/null; do
+            sleep 5
+          done
+          echo "Upload server stopped."
+
+      - name: Process all incoming photos
+        run: |
+          if [ -z "$(ls -A incoming/)" ]; then
+            echo "No new photos to process."
+          else
+            python process_photos.py
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add --sparse photos/ thumbs/ photos.json
+          git commit -m "Upload new photos via ngrok" || echo "No changes to commit"
+          git push
