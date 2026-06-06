@@ -111,6 +111,14 @@ def upload():
 def logs():
     return jsonify({"status": "uploading", "time": __import__('datetime').datetime.utcnow().isoformat()})
 
+@app.route("/check")
+def logs():
+    return jsonify({"status": "loaded", "ok": True})
+
+
+
+
+
 @app.route("/shutdown", methods=["POST"])
 def shutdown():
     log("收到关闭信号")
