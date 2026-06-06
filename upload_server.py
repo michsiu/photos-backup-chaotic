@@ -112,7 +112,7 @@ def logs():
     return jsonify({"status": "uploading", "time": __import__('datetime').datetime.utcnow().isoformat()})
 
 @app.route("/check")
-def logs():
+def check():
     return jsonify({"status": "loaded", "ok": True})
 
 
