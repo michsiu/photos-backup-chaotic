@@ -6814,5 +6814,37 @@
     "year": "2026",
     "date": "2026-06-25T23:34:00+08:00",
     "sha256": "25043834b61e1849ed96c3e1b092efc63a8dc0bc2c4e9e928844a810f03092c3"
+  },
+  "99ea0cb0f8ba03b13575c0f7c898d70e32ea8107a6a6a720af1fd192d6c6d977": {
+    "fileName": "IMG_7653.png",
+    "url": "photos/2026/99ea0cb0f8ba03b13575c0f7c898d70e32ea8107a6a6a720af1fd192d6c6d977.png",
+    "thumbnail": "thumbs/2026/99ea0cb0f8ba03b13575c0f7c898d70e32ea8107a6a6a720af1fd192d6c6d977.png",
+    "year": "2026",
+    "date": "2026-06-28T22:16:42+08:00",
+    "sha256": "99ea0cb0f8ba03b13575c0f7c898d70e32ea8107a6a6a720af1fd192d6c6d977"
+  },
+  "107c571e913c62b0238e6a87ae9797f058353849ac9318e444faa4bfeb71ea29": {
+    "fileName": "IMG_7655.png",
+    "url": "photos/2026/107c571e913c62b0238e6a87ae9797f058353849ac9318e444faa4bfeb71ea29.png",
+    "thumbnail": "thumbs/2026/107c571e913c62b0238e6a87ae9797f058353849ac9318e444faa4bfeb71ea29.png",
+    "year": "2026",
+    "date": "2026-06-28T22:57:53+08:00",
+    "sha256": "107c571e913c62b0238e6a87ae9797f058353849ac9318e444faa4bfeb71ea29"
+  },
+  "2afbfc45ac6b50332ef1ab18ee2c8bd4f2ceac5e9981be75e9d7f120ed901480": {
+    "fileName": "IMG_7567.png",
+    "url": "photos/2026/2afbfc45ac6b50332ef1ab18ee2c8bd4f2ceac5e9981be75e9d7f120ed901480.png",
+    "thumbnail": "thumbs/2026/2afbfc45ac6b50332ef1ab18ee2c8bd4f2ceac5e9981be75e9d7f120ed901480.png",
+    "year": "2026",
+    "date": "2026-06-21T02:21:17+08:00",
+    "sha256": "2afbfc45ac6b50332ef1ab18ee2c8bd4f2ceac5e9981be75e9d7f120ed901480"
+  },
+  "5621bc71a0ad5c095eac226126f0495f78c938c7a133bca4b31404fed81d4972": {
+    "fileName": "IMG_7646.png",
+    "url": "photos/2026/5621bc71a0ad5c095eac226126f0495f78c938c7a133bca4b31404fed81d4972.png",
+    "thumbnail": "thumbs/2026/5621bc71a0ad5c095eac226126f0495f78c938c7a133bca4b31404fed81d4972.png",
+    "year": "2026",
+    "date": "2026-06-28T04:37:00+08:00",
+    "sha256": "5621bc71a0ad5c095eac226126f0495f78c938c7a133bca4b31404fed81d4972"
   }
 }
