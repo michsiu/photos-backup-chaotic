@@ -6910,5 +6910,13 @@
     "year": "2026",
     "date": "2026-06-25T23:47:00+08:00",
     "sha256": "7330f8d6f802fc5a2d3e8042520f4de434f58c16eadd50813f6aa7d0cb2b15c6"
+  },
+  "6e6ebc616b7d260f5ec66929e9b57da8501bd32a7b13bca951c7c1ceff333f9d": {
+    "fileName": "IMG_7659.jpeg",
+    "url": "photos/2026/6e6ebc616b7d260f5ec66929e9b57da8501bd32a7b13bca951c7c1ceff333f9d.jpeg",
+    "thumbnail": "thumbs/2026/6e6ebc616b7d260f5ec66929e9b57da8501bd32a7b13bca951c7c1ceff333f9d.jpeg",
+    "year": "2026",
+    "date": "2026-06-29T17:38:38+08:00",
+    "sha256": "6e6ebc616b7d260f5ec66929e9b57da8501bd32a7b13bca951c7c1ceff333f9d"
   }
 }
