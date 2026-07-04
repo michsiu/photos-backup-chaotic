@@ -7390,5 +7390,45 @@
     "year": "2026",
     "date": "2026-07-03T10:36:00+08:00",
     "sha256": "6915a8261240ce5c835e213b663902bb2402a171dd844ffb3104b503888894c2"
+  },
+  "c5a89ff3a1826d24e0996887a2d702d64f32840ecda0eff90d6a9b42fd9a791e": {
+    "fileName": "image_b979f021aadbc47b160ad551900a1623.jpeg",
+    "url": "photos/2026/c5a89ff3a1826d24e0996887a2d702d64f32840ecda0eff90d6a9b42fd9a791e.jpeg",
+    "thumbnail": "thumbs/2026/c5a89ff3a1826d24e0996887a2d702d64f32840ecda0eff90d6a9b42fd9a791e.jpeg",
+    "year": "2026",
+    "date": "2026-06-30T18:46:00+08:00",
+    "sha256": "c5a89ff3a1826d24e0996887a2d702d64f32840ecda0eff90d6a9b42fd9a791e"
+  },
+  "b9fb48209764606c3f2c1cb5ca8dc4b925b85d54463aa75a93d2379e0bee08a0": {
+    "fileName": "IMG_7897.png",
+    "url": "photos/2026/b9fb48209764606c3f2c1cb5ca8dc4b925b85d54463aa75a93d2379e0bee08a0.png",
+    "thumbnail": "thumbs/2026/b9fb48209764606c3f2c1cb5ca8dc4b925b85d54463aa75a93d2379e0bee08a0.png",
+    "year": "2026",
+    "date": "2026-07-04T04:14:08+08:00",
+    "sha256": "b9fb48209764606c3f2c1cb5ca8dc4b925b85d54463aa75a93d2379e0bee08a0"
+  },
+  "77425b3433109af119a336f7e491dec4910d88fb88e1b2d6da991e84db9adb7c": {
+    "fileName": "IMG_7898.png",
+    "url": "photos/2026/77425b3433109af119a336f7e491dec4910d88fb88e1b2d6da991e84db9adb7c.png",
+    "thumbnail": "thumbs/2026/77425b3433109af119a336f7e491dec4910d88fb88e1b2d6da991e84db9adb7c.png",
+    "year": "2026",
+    "date": "2026-07-04T04:14:22+08:00",
+    "sha256": "77425b3433109af119a336f7e491dec4910d88fb88e1b2d6da991e84db9adb7c"
+  },
+  "b55bac53d28b58d42a8f301d954b877f7898af7a97a503c318ae3088056084e8": {
+    "fileName": "IMG_7890.png",
+    "url": "photos/2026/b55bac53d28b58d42a8f301d954b877f7898af7a97a503c318ae3088056084e8.png",
+    "thumbnail": "thumbs/2026/b55bac53d28b58d42a8f301d954b877f7898af7a97a503c318ae3088056084e8.png",
+    "year": "2026",
+    "date": "2026-07-03T19:59:59+08:00",
+    "sha256": "b55bac53d28b58d42a8f301d954b877f7898af7a97a503c318ae3088056084e8"
+  },
+  "ffb7a9ad96164a3fd76c240939122b2423c807b5ee94680d0a1a9256b9f12387": {
+    "fileName": "deepseek_mermaid_20260701_e6386f.png",
+    "url": "photos/2026/ffb7a9ad96164a3fd76c240939122b2423c807b5ee94680d0a1a9256b9f12387.png",
+    "thumbnail": "thumbs/2026/ffb7a9ad96164a3fd76c240939122b2423c807b5ee94680d0a1a9256b9f12387.png",
+    "year": "2026",
+    "date": "2026-07-01T22:00:00+08:00",
+    "sha256": "ffb7a9ad96164a3fd76c240939122b2423c807b5ee94680d0a1a9256b9f12387"
   }
 }
