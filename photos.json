@@ -8070,5 +8070,45 @@
     "year": "2026",
     "date": "2026-07-09T11:55:00+08:00",
     "sha256": "ea71bcd3208a05a6dcf919096b26ec3729460a899ad3d085cd23590ec7c1bf8c"
+  },
+  "370833176eb9870c3c1334cfe9e6843a1ccefdff78adbdc7080d646f42e9e06d": {
+    "fileName": "IMG_8089.jpeg",
+    "url": "photos/2026/370833176eb9870c3c1334cfe9e6843a1ccefdff78adbdc7080d646f42e9e06d.jpeg",
+    "thumbnail": "thumbs/2026/370833176eb9870c3c1334cfe9e6843a1ccefdff78adbdc7080d646f42e9e06d.jpeg",
+    "year": "2026",
+    "date": "2026-07-08T23:37:23+08:00",
+    "sha256": "370833176eb9870c3c1334cfe9e6843a1ccefdff78adbdc7080d646f42e9e06d"
+  },
+  "d2f9cd244a6e714b3ecf60ceaefe376c4d75ef8fa6323f0d16919681286fa250": {
+    "fileName": "IMG_8088.jpeg",
+    "url": "photos/2026/d2f9cd244a6e714b3ecf60ceaefe376c4d75ef8fa6323f0d16919681286fa250.jpeg",
+    "thumbnail": "thumbs/2026/d2f9cd244a6e714b3ecf60ceaefe376c4d75ef8fa6323f0d16919681286fa250.jpeg",
+    "year": "2026",
+    "date": "2026-07-09T02:29:40+08:00",
+    "sha256": "d2f9cd244a6e714b3ecf60ceaefe376c4d75ef8fa6323f0d16919681286fa250"
+  },
+  "41451a4ff4ccd666bffc923c0b535eafe3f69f9619609315bb88997d78df5e56": {
+    "fileName": "IMG_8087.png",
+    "url": "photos/2026/41451a4ff4ccd666bffc923c0b535eafe3f69f9619609315bb88997d78df5e56.png",
+    "thumbnail": "thumbs/2026/41451a4ff4ccd666bffc923c0b535eafe3f69f9619609315bb88997d78df5e56.png",
+    "year": "2026",
+    "date": "2026-07-09T05:51:45+08:00",
+    "sha256": "41451a4ff4ccd666bffc923c0b535eafe3f69f9619609315bb88997d78df5e56"
+  },
+  "f1614d34494027b8b885ce2c836eb1b1a8968e04bb85150fc41b2ed110fc6cfa": {
+    "fileName": "IMG_8084.png",
+    "url": "photos/2026/f1614d34494027b8b885ce2c836eb1b1a8968e04bb85150fc41b2ed110fc6cfa.png",
+    "thumbnail": "thumbs/2026/f1614d34494027b8b885ce2c836eb1b1a8968e04bb85150fc41b2ed110fc6cfa.png",
+    "year": "2026",
+    "date": "2026-07-09T06:00:52+08:00",
+    "sha256": "f1614d34494027b8b885ce2c836eb1b1a8968e04bb85150fc41b2ed110fc6cfa"
+  },
+  "e8984cb41db7406606b97cda4a59e9a3b87756287fee99a1f9ffb197036887a0": {
+    "fileName": "IMG_8086.png",
+    "url": "photos/2026/e8984cb41db7406606b97cda4a59e9a3b87756287fee99a1f9ffb197036887a0.png",
+    "thumbnail": "thumbs/2026/e8984cb41db7406606b97cda4a59e9a3b87756287fee99a1f9ffb197036887a0.png",
+    "year": "2026",
+    "date": "2026-07-09T06:00:46+08:00",
+    "sha256": "e8984cb41db7406606b97cda4a59e9a3b87756287fee99a1f9ffb197036887a0"
   }
 }
