@@ -8582,5 +8582,13 @@
     "year": "2024",
     "date": "2024-02-29T19:07:00+08:00",
     "sha256": "d022a37a52f209699fcd56b909091bb30ca484116729a6b90290d827ae3431d3"
+  },
+  "b1bbf6ba72bd15b3f530805e5bdd9aae33c0531495d7cb07dd64908830c49c18": {
+    "fileName": "v2_d53949b688934ae2ac6cb810859b4bcd@5888275_oswg302863oswg1080oswg1398_img_000.jpeg",
+    "url": "photos/2026/b1bbf6ba72bd15b3f530805e5bdd9aae33c0531495d7cb07dd64908830c49c18.jpeg",
+    "thumbnail": "thumbs/2026/b1bbf6ba72bd15b3f530805e5bdd9aae33c0531495d7cb07dd64908830c49c18.jpeg",
+    "year": "2026",
+    "date": "2026-07-02T13:31:00+08:00",
+    "sha256": "b1bbf6ba72bd15b3f530805e5bdd9aae33c0531495d7cb07dd64908830c49c18"
   }
 }
