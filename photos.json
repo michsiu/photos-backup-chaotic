@@ -8854,5 +8854,45 @@
     "year": "2026",
     "date": "2026-07-17T04:06:00+08:00",
     "sha256": "14e4433cbd7a5cf4cefad6abec1c6c668b5f0c13bd72e426bfd4b818ff6dc484"
+  },
+  "c14e68aecb96fb1218b2be437f54e145f55d24218a5fa092ebb7e337bb345ebd": {
+    "fileName": "IMG_8283.jpeg",
+    "url": "photos/2026/c14e68aecb96fb1218b2be437f54e145f55d24218a5fa092ebb7e337bb345ebd.jpeg",
+    "thumbnail": "thumbs/2026/c14e68aecb96fb1218b2be437f54e145f55d24218a5fa092ebb7e337bb345ebd.jpeg",
+    "year": "2026",
+    "date": "2026-07-17T22:51:00+08:00",
+    "sha256": "c14e68aecb96fb1218b2be437f54e145f55d24218a5fa092ebb7e337bb345ebd"
+  },
+  "07a181b919611fb350e620c71611ec705aacdf62555ac0cde1c83844892605f9": {
+    "fileName": "IMG_8286.jpeg",
+    "url": "photos/2026/07a181b919611fb350e620c71611ec705aacdf62555ac0cde1c83844892605f9.jpeg",
+    "thumbnail": "thumbs/2026/07a181b919611fb350e620c71611ec705aacdf62555ac0cde1c83844892605f9.jpeg",
+    "year": "2026",
+    "date": "2026-07-17T23:40:18+08:00",
+    "sha256": "07a181b919611fb350e620c71611ec705aacdf62555ac0cde1c83844892605f9"
+  },
+  "8e178be003c46e8762f8ae8b15d1ffe44e2e5a883510fe805d5fb26a57b8c8b2": {
+    "fileName": "IMG_8274.jpeg",
+    "url": "photos/2026/8e178be003c46e8762f8ae8b15d1ffe44e2e5a883510fe805d5fb26a57b8c8b2.jpeg",
+    "thumbnail": "thumbs/2026/8e178be003c46e8762f8ae8b15d1ffe44e2e5a883510fe805d5fb26a57b8c8b2.jpeg",
+    "year": "2026",
+    "date": "2026-07-17T11:39:52+08:00",
+    "sha256": "8e178be003c46e8762f8ae8b15d1ffe44e2e5a883510fe805d5fb26a57b8c8b2"
+  },
+  "b512e4bb1fccca0d94808780ef596c9f6c280bd3279a237f8a7afa45b2d0a0b6": {
+    "fileName": "IMG_8291.png",
+    "url": "photos/2026/b512e4bb1fccca0d94808780ef596c9f6c280bd3279a237f8a7afa45b2d0a0b6.png",
+    "thumbnail": "thumbs/2026/b512e4bb1fccca0d94808780ef596c9f6c280bd3279a237f8a7afa45b2d0a0b6.png",
+    "year": "2026",
+    "date": "2026-07-18T09:30:15+08:00",
+    "sha256": "b512e4bb1fccca0d94808780ef596c9f6c280bd3279a237f8a7afa45b2d0a0b6"
+  },
+  "a711417610f35631fe47f7db89800eb1a0242cfb1ed06e1d5e429991b2c44e05": {
+    "fileName": "IMG_8290.png",
+    "url": "photos/2026/a711417610f35631fe47f7db89800eb1a0242cfb1ed06e1d5e429991b2c44e05.png",
+    "thumbnail": "thumbs/2026/a711417610f35631fe47f7db89800eb1a0242cfb1ed06e1d5e429991b2c44e05.png",
+    "year": "2026",
+    "date": "2026-07-18T09:29:39+08:00",
+    "sha256": "a711417610f35631fe47f7db89800eb1a0242cfb1ed06e1d5e429991b2c44e05"
   }
 }
